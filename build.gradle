@@ -20,7 +20,7 @@ dependencies {
 
 jmh {
     // set the JVM arguments for the benchmarks
-    jvmArgs = ['-Xms1g', '-Xmx1g' ]
+    jvmArgs = ['-Xms4g', '-Xmx4g' ]
 }
 
 test {
